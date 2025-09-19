@@ -1,0 +1,21 @@
+1. Front-end and Back-end in own words:
+Frontend is what users see and interact with directly in their browser: the layout and the GUI.
+Backend is what happens under the hood: storing and retrieving data, handling user requests, and maintaining security.
+If I were working on the backend, I’d probably be setting up the database, writing logic, creating APIs
+for the frontend to connect to and making sure the app is secure.
+
+2. Python and JavaScript, Python's advantages:
+Both Python and JavaScript are high level languages that are easy to learn and they both let you write code without worrying about types. 
+The difference is that JavaScript was built mainly for the frontend (it can also be used on the backend with Node.js), while Python was
+designed as a general purpose language and is especially strong for backend.
+
+If I were trying to convince my team, I’d point out that Python’s syntax is simpler and more readable, which makes it easier to onboard
+new developers and maintain projects. Python also has strong backend frameworks like Django, which come with a lot
+of built in tools. On top of that, Python has a huge package ecosystem and a very active community, so we can find solutions faster.
+
+3. Three goals:
+∙ I want to get comfortable with Python basics so I can write simple scripts.
+
+∙ I’d like to learn how to structure a small web app.
+
+∙ To feel confident building backend features for web applications using Python.
