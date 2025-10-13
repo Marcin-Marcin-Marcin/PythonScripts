@@ -1,0 +1,44 @@
+Reflection Questions
+
+1. Travel App Script
+
+destination = input("Where would you like to travel? ").strip().title()
+
+if destination == "Berlin":
+    print("Have a nice stay in Berlin!")
+elif destination == "Zurich":
+    print("Have a nice Stay in Zurich!")
+elif destination == "Geneve":
+    print("Have a nice stay in Geneve!")
+else:
+    print("We are sorry - the desired destination is currently not available.")
+
+Explanation:
+
+This script asks the user where they would like to travel and checks their answer against three destinations.
+Based on their input, it either prints a custom message or a default one if the place is not on the list.
+The if-elif-else structure makes it easy to handle different options in a clear and organized way.
+
+2. Interview Question: Explain logical operators in Python
+
+Logical operators let you combine or change conditions in your code:
+
+and: returns True only when both conditions are true
+
+or: returns True if at least one condition is true
+
+not: flips condition’s value (so True becomes False, and vice versa)
+
+3. What are functions in Python? When and why are they useful?
+
+Functions are chunks of code you can reuse whenever you need to perform a specific task.
+They help keep your program organized, easier to read, and simpler to update.
+Once you define a function, you can call it as many times as you like with different inputs, which saves time
+and avoids repeating the same code.
+
+They’re especially useful when projects start getting bigger. Functions keep your code neat and modular.
+
+4. Progress Toward Personal Goals
+
+I’ve made good progress on my first goal. I’m now much more comfortable with Python basics and can write small
+scripts. I also feel more at ease understanding how conditionals, loops, and functions work together.
