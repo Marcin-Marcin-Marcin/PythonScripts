@@ -1,0 +1,34 @@
+1. Why is file storage important when using Python?
+
+File storage lets your program save data so you can use it again later.
+If you don’t store local files, all the data would disappear once the program ends.
+Saving files is essential for keeping progress, settings, or results between sessions.
+
+2. What are pickles and when would you use them?
+
+Pickles are Python objects saved in a binary format using the pickle module.
+They let you store things like lists or dictionaries and load them later exactly as they were.
+You’d use pickles when working only in Python and when you need to save complex data structures easily.
+
+3. How do you check or change your working directory in Python?
+
+To see your current directory:
+
+import os
+os.getcwd()
+
+To change it:
+
+os.chdir("path/to/folder")
+
+These commands help control where your program reads and saves files.
+
+4. How can you stop an error from crashing your whole script?
+
+Use a try-except block.
+Code that might fail goes inside try, and the except part handles what happens if it does.
+This keeps the script running instead of stopping completely.
+
+5. Progress Toward Personal Goals
+I feel good about how things are going. I understand file handling better.
+I still need more practice with python, but I’m gaining confidence with each lesson.
