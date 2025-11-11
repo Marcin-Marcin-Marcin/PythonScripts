@@ -77,7 +77,6 @@ def get_ingredients():
             return parts
         print("Please enter at least one ingredient.")
 
-# ---- CRUD ----
 def create_recipe(conn, cursor):
     print("\n— Create a new recipe —")
     name = get_name()
