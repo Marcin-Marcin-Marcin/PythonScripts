@@ -77,7 +77,6 @@ def get_ingredients():
             return parts
         print("Please enter at least one ingredient.")
 
-# ---- CRUD ----
 def create_recipe(conn, cursor):
     print("\n— Create a new recipe —")
     name = get_name()
@@ -91,7 +90,7 @@ def create_recipe(conn, cursor):
         (name, ingredients_str, cooking_time, difficulty),
     )
     conn.commit()
-    print("✅ Recipe added.\n")
+    print("Recipe added.\n")
 
 def search_recipe(conn, cursor):
     print("\n— Search recipes by ingredient —")
@@ -164,7 +163,7 @@ def update_recipe(conn, cursor):
         new_name = get_name()
         cursor.execute("UPDATE Recipes SET name = %s WHERE id = %s", (new_name, rid))
         conn.commit()
-        print("✅ Name updated.\n")
+        print("Name updated.\n")
 
     elif choice == "2":
         new_time = get_time()
@@ -175,7 +174,7 @@ def update_recipe(conn, cursor):
             (new_time, new_diff, rid),
         )
         conn.commit()
-        print(f"✅ Cooking time updated. Difficulty is now '{new_diff}'.\n")
+        print(f"Cooking time updated. Difficulty is now '{new_diff}'.\n")
 
     elif choice == "3":
         ing_list = get_ingredients()
@@ -187,7 +186,7 @@ def update_recipe(conn, cursor):
             (ing_str, new_diff, rid),
         )
         conn.commit()
-        print(f"✅ Ingredients updated. Difficulty is now '{new_diff}'.\n")
+        print(f"Ingredients updated. Difficulty is now '{new_diff}'.\n")
 
     else:
         print("Invalid choice.\n")
