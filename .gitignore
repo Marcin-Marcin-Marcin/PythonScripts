@@ -1,0 +1,52 @@
+# PYTHON VIRTUAL ENVIRONMENTS
+achievement2-practice/
+env/
+venv/
+.venv/
+
+# Exercise 2.2 venv name
+a2-ve-recipeapp/
+*/Scripts/
+*/Lib/
+*/Include/
+*/pyvenv.cfg
+
+# PYTHON CACHES / BUILD FILES
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# DJANGO-SPECIFIC
+db.sqlite3
+*.log
+media/
+staticfiles/
+static/
+*/migrations/__pycache__/
+
+# Django dev artifacts
+*.sqlite3-journal
+.env
+.env.*
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MY SQL / SQLALCHEMY (from Achievement 1)
+*.bin
+*.db
+
+# IDE / OS JUNK
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# GITHUB DESKTOP NOISE
+*.tmp
+*.temp
