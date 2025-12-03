@@ -11,6 +11,6 @@ and search for records using simple Python code which makes development faster a
 
 Writing tests early helps make sure your application works the way you expect as it grows. Every change you
 make could introduce a small bug and tests can catch these problems right away.
-For example: in a recipe app tests can check that a recipe name isn’t too long or that cooking time can’t
-be negative. If something breaks, the tests will show it immediately. This saves time, keeps the project stable
-and makes it easier to add new features with confidence.
+For example: in a recipe app tests can check that a recipe name isn’t too long. If something breaks,
+the tests will show it immediately. This saves time, keeps the project stable
+and makes it easier to add new features.
