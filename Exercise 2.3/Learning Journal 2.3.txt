@@ -1,0 +1,16 @@
+Exercise 2.3
+1. How Django models work and what their benefits are
+
+Django models are Python classes that represent the structure of your database. Each model becomes a table
+and each class attribute becomes a column. Django handles all the database operations for you so you don’t
+need to write SQL yourself.
+The benefit is that your data stays organized, consistent and easier to manage. You can create, update,
+and search for records using simple Python code which makes development faster and less error prone.
+
+2. Why writing tests from the beginning is important
+
+Writing tests early helps make sure your application works the way you expect as it grows. Every change you
+make could introduce a small bug and tests can catch these problems right away.
+For example: in a recipe app tests can check that a recipe name isn’t too long or that cooking time can’t
+be negative. If something breaks, the tests will show it immediately. This saves time, keeps the project stable
+and makes it easier to add new features with confidence.
