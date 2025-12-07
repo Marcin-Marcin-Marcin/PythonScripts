@@ -1,0 +1,25 @@
+Exercise 2.4
+
+1. How Django views work
+
+A Django view decides what the user should see when they visit a certain URL. When someone opens a page,
+the view receives the request, runs some Python code, and returns a response. Most of the time, this response
+is an HTML template. For example, if the user visits the homepage, the view will load the correct HTML file
+and show it in the browser.
+
+2. Function-based views vs. class-based views
+
+If I had to reuse a lot of code in many places, I would choose class-based views. They let me organize
+repeated logic inside classes, which makes the code easier to maintain. Function-based views are simple and
+easy to understand, but they can get repetitive in bigger projects. Class-based views help avoid writing the
+same code several times.
+
+3. Basics of the Django Template Language
+
+The Django Template Language lets me mix Pythonstyle data with regular HTML. Some basic parts are:
+
+Variables like name  to show values on the page.
+Tags like % if % or % for % to add simple logic.
+Filters to adjust how data is displayed (for example> making text uppercase).
+Template inheritance so pages can share a common layout.
+These tools make it easier to build pages that update based on the data in the app.
