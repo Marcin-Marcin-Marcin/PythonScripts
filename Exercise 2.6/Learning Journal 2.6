@@ -1,0 +1,26 @@
+Exercise 2.6
+
+Why authentication is important in a web application
+
+Authentication controls who can access certain parts of an application. Some pages should only be available
+to logged-in users.
+For example in a recipe app, everyone can see the homepage but only logged-in users can view recipe details.
+This improves security and keeps the application organized.
+
+Steps to create a login in a Django application
+
+First, you create a login view that shows a login form and checks the user’s input.
+A GET request displays the form, and a POST request processes the username and password.
+Next, you create a login template and connect the view to a URL like /login.
+Finally, you protect selected pages so unauthenticated users are redirected to the login page.
+
+Django functions used for authentication
+
+authenticate()
+Checks if the provided username and password are correct and returns the user if they are valid.
+
+redirect()
+Sends the user to another page, for example after logging in or logging out.
+
+include()
+Lets you connect URL files from different apps to keep the project structure clean and organized.
