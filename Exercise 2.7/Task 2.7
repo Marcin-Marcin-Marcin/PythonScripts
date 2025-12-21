@@ -1,0 +1,69 @@
+* Search Idea *
+
+Users can search recipes by name, ingredients and maximum cooking time.
+
+Partial search is supported, so typing part of a name like “che” will still find “Cheese” using icontains.
+
+Search results are shown as a table with recipe name, cooking time, difficulty and ingredients.
+Each recipe name is clickable and opens the recipe detail page.
+
+If the form is submitted empty, all recipes are displayed.
+
+
+* Data Analysis *
+
+Bar chart - Cooking time per recipe
+
+x-axis: recipe name
+
+y-axis: cooking time (minutes)
+
+Displayed based on user selection
+
+
+Pie chart - Recipe difficulty distribution
+
+Slices: difficulty levels (Easy, Medium, Hard)
+
+Values: percentage of recipes per difficulty
+
+Displayed based on user selection
+
+
+Line chart - Cooking time trend
+
+x-axis: recipe name
+
+y-axis: cooking time (minutes)
+
+Displayed based on user selection
+
+
+* User Flow *
+
+START
+  |
+  1 User opens Homepage 
+  |
+  2 User clicks “All Recipes”
+  |
+[Protected page]
+  3 Redirect to Login 
+  |
+  4 User submits login form 
+  |
+  5 Redirect back to requested page “All Recipes”
+  │
+  6 User opens Search 
+  |
+  7 User runs search with filters 
+  |
+  8 User optionally selects chart type (#1/#2/#3) - chart shown under results
+  |
+  9 User clicks a recipe name in results table 
+  |
+  10 User logs out 
+  |
+  11 Success page shown with login link
+  |
+END
