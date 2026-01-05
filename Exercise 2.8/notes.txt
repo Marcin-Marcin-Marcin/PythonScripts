@@ -1,0 +1,12 @@
+Exercise 2.8 - Tests
+
+Command used:
+python manage.py test
+
+Result:
+23 tests ran successfully (OK).
+
+Coverage included:
+- Model tests (Recipe, Category)
+- Form tests (RecipeSearchForm, AddRecipeForm)
+- View tests (public home, login-protected pages, add recipe POST, search POST)
